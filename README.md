@@ -1,18 +1,18 @@
-# asdf-lazysql
+# asdf-gonzo
 
 
-asdf plugin for lazysql
+asdf plugin for gonzo
 
 
 ## Install plugin
 
 
 ```bash
-asdf plugin add lazysql https://github.com/a1xs/asdf-lazysql
+asdf plugin add gonzo https://github.com/a1xs/asdf-gonzo
 ```
 
 ## Install app
 
 ```bash
-asdf install lazysql 0.4.3
+asdf install gonzo 0.3.0
 ```
