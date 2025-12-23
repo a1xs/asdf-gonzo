@@ -53,10 +53,10 @@ get_platform_old() {
   local platform
 
   case "$(uname | tr '[:upper:]' '[:lower:]')" in
-  darwin) platform="Darwin" ;;
+  darwin) platform="darwin" ;;
   freebsd) platform="freebsd" ;;
-  linux) platform="Linux" ;;
-  windows) platform="Windows" ;;
+  linux) platform="linux" ;;
+  windows) platform="windows" ;;
   *)
     fail "Platform '$(uname)' not supported!"
     ;;
