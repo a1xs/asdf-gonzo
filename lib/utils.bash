@@ -69,8 +69,7 @@ get_arch() {
   local arch
 
   case "$(uname -m)" in
-  x86_64 | amd64) arch="x86_64" ;;
-  armv6l) arch="armv6" ;;
+  x86_64 | amd64) arch="amd64" ;;
   aarch64 | arm64) arch="arm64" ;;
   *)
     fail "Arch '$(uname -m)' not supported!"
