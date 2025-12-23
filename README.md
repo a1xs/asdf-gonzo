@@ -2,7 +2,7 @@
 
 
 asdf plugin for gonzo
-
+https://github.com/control-theory/gonzo
 
 ## Install plugin
 
